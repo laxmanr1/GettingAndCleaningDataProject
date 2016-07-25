@@ -32,11 +32,11 @@ activity <- merge(Y, activities, by="activityId")$activityLabel
 
 # merge data frames of different columns to form one data table
 mergedTidyData <- cbind(subject, X, activity)                                      # use column bind to merge multiple files
-write.table(mergedTidyData, "merged_tidy_data.txt")                                # write out the first file (merged data)
+write.table(mergedTidyData, "merged_tidy_data.txt", row.names=FALSE)               # write out the first file (merged data)
   
 
 # create a dataset grouped by subject and activity after applying standard deviation and average calculations
 library(data.table)
-dataDT <- data.table(mergedTidyata)
-calculatedData<- dataDT[, lapply(.SD, mean), by=c("subjectId", "activity")]         # calculate & group
-write.table(calculatedData, "calculated_tidy_data.txt")                             # write out the second file
+dataDT <- data.table(mergedTidyData)
+calculatedData<- dataDT[, lapply(.SD, mean), by=c("subjectId", "activity")]        # calculate & group
+write.table(calculatedData, "calculated_tidy_data.txt", row.names=FALSE)           # write out the second file
