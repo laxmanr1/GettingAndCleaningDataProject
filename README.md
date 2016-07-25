@@ -16,5 +16,5 @@ Project work at end of Week 4 to complete the course Getting And Cleaning Data
    5. Two files will be created as a result: merged_tidy_data.txt, calculated_tidy_data.txt
 
 ## Additional Information
-Additional information about the variables, data and transformations is provided in the CodeBook.MD file.
+Additional information about the variables, data and transformations is provided in the CodeBook.MD file.  
 Information about the dataset is available at [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
