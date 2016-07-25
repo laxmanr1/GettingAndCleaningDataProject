@@ -13,13 +13,13 @@
   More information can be found at [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
 
 ##Attribute Information
-  The following information can be found for each record in the dataset:
-
-  Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-  Triaxial Angular velocity from the gyroscope.
-  A 561-feature vector with time and frequency domain variables.
-  Its activity label.
-  An identifier of the subject who carried out the experiment.
+  The following information can be found for each record in the dataset:  
+  
+  Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.  
+  Triaxial Angular velocity from the gyroscope.  
+  A 561-feature vector with time and frequency domain variables.  
+  Its activity label.  
+  An identifier of the subject who carried out the experiment.  
 
 ##Data cleaning process
   1. Merge the training and the test sets to create one data set.
