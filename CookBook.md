@@ -36,7 +36,7 @@
     Assign column names and merge to create one data set.
 
   2. Extract only the measurements on the mean and standard deviation for each measurement.
-     Use a logical vector to subset only the ID, mean and stdev columns and eliminate the columns.  
+     Use grep to identify columns required.
 
   3. Use descriptive activity names to name the activities in the data set
      Merge the subset data from step 2 with the activityType table to inlude the descriptive activity names
